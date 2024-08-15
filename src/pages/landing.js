@@ -1,21 +1,18 @@
-import logo from './img/logoSagara.svg';
-import logoWhite from './img/sagaraWhite.png';
-import reasonOne from './img/reasonOne.svg';
-import reasonTwo from './img/reasonTwo.svg';
-import reasonThree from './img/reasonThree.svg';
-import howSatu from './img/howSatu.svg';
-import howDua from './img/howDua.svg';
-import howTiga from './img/howTiga.svg';
-import howEmpat from './img/howEmpat.svg';
-import howLima from './img/howLima.svg';
+import logo from '../img/logoSagara.svg';
+import logoWhite from '../img/sagaraWhite.png';
+import reasonOne from '../img/reasonOne.svg';
+import reasonTwo from '../img/reasonTwo.svg';
+import reasonThree from '../img/reasonThree.svg';
+import howSatu from '../img/howSatu.svg';
+import howDua from '../img/howDua.svg';
+import howTiga from '../img/howTiga.svg';
+import howEmpat from '../img/howEmpat.svg';
+import howLima from '../img/howLima.svg';
 import { useState } from 'react';
-import './App.css';
-import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Landing from './pages/landing';
-import Dashboard from './pages/dashboard';
+import './landing.css';
 
-function App() {
+
+const Landing = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('frontend');
 
@@ -428,4 +425,4 @@ function App() {
   );
 }
 
-export default App;
+export default Landing;

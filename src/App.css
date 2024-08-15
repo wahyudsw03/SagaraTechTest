@@ -36,3 +36,136 @@
     transform: rotate(360deg);
   }
 }
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+
+footer {
+  background-color: #1C1C1C;
+  color: #f3f4f6;
+  padding: 2rem 1rem;
+}
+
+footer img {
+  width: 7rem; 
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #f3f4f6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+footer .social-icons {
+  display: flex;
+  align-items: center;
+}
+
+footer .social-icons svg {
+  width: 1.75rem; 
+  height: 1.75rem;
+  fill: currentColor; 
+}
+
+footer .social-icons a {
+  margin-right: 1rem;
+}
+
+/* Responsive  */
+/* Responsive Footer Styles */
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .footer .flex {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center content */
+  }
+
+  .footer .max-w-6xl {
+    padding: 0 1rem; /* Adjust padding */
+  }
+
+  .footer .text-left {
+    text-align: center; /* Center text */
+  }
+
+  .footer .flex-col {
+    margin-bottom: 2rem; /* Add space between sections */
+  }
+
+  .footer .space-x-12 {
+    margin: 0; /* Remove space between columns */
+  }
+
+  .footer .ml-28 {
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .footer .text-white {
+    margin-bottom: 1rem; /* Adjust margin for text */
+  }
+
+  .footer .h-8 {
+    width: 24px; /* Adjust icon size */
+    height: 24px; /* Adjust icon size */
+  }
+
+  .footer .w-28 {
+    width: 7rem; /* Adjust logo size */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer .flex {
+    flex-direction: row; /* Display columns side by side */
+    justify-content: space-between; /* Space between columns */
+  }
+
+  .footer .ml-28 {
+    margin-left: 1rem; /* Adjust margin for medium screens */
+  }
+
+  .footer .space-x-12 {
+    margin: 0; /* Adjust margin for columns */
+  }
+}
+
+
+
+
+
