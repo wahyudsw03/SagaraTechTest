@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SagaraTechTest/static/css/main.31249641.css",
+    "main.js": "/SagaraTechTest/static/js/main.085ef890.js",
+    "static/js/453.ed3810f9.chunk.js": "/SagaraTechTest/static/js/453.ed3810f9.chunk.js",
+    "static/media/sagaraWhite.png": "/SagaraTechTest/static/media/sagaraWhite.034cd76656ef70f90344.png",
+    "static/media/logoSagara.svg": "/SagaraTechTest/static/media/logoSagara.435fa153c05a843181b792fef8670514.svg",
+    "static/media/howLima.svg": "/SagaraTechTest/static/media/howLima.bf74d6e0f438227c59314a1e0fd5833c.svg",
+    "static/media/howTiga.svg": "/SagaraTechTest/static/media/howTiga.c34ed4ce260d5201fa55bbdabc6fb202.svg",
+    "static/media/reasonTwo.svg": "/SagaraTechTest/static/media/reasonTwo.60bd7a8b030ec45bd38c2379aa494d85.svg",
+    "static/media/howDua.svg": "/SagaraTechTest/static/media/howDua.1aa7ea19bf138ac5c5fa1a17e5963aa5.svg",
+    "static/media/howSatu.svg": "/SagaraTechTest/static/media/howSatu.3188788cdc815243f56706fe8ca792b9.svg",
+    "static/media/reasonOne.svg": "/SagaraTechTest/static/media/reasonOne.92ca07332e5dbbf867dbf03b111fe965.svg",
+    "static/media/reasonThree.svg": "/SagaraTechTest/static/media/reasonThree.7381cdef23a84cc39d53c3b31ea1c6a9.svg",
+    "static/media/howEmpat.svg": "/SagaraTechTest/static/media/howEmpat.aa402bc965bf898b9622f851d3f76790.svg",
+    "index.html": "/SagaraTechTest/index.html",
+    "main.31249641.css.map": "/SagaraTechTest/static/css/main.31249641.css.map",
+    "main.085ef890.js.map": "/SagaraTechTest/static/js/main.085ef890.js.map",
+    "453.ed3810f9.chunk.js.map": "/SagaraTechTest/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31249641.css",
+    "static/js/main.085ef890.js"
+  ]
+}
